@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONVX — IA operacional para OPBs</title>
+    <!-- Importa a build do Tailwind via CDN para permitir estilos rápidos e responsivos -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-black text-gray-100 leading-relaxed">
+    <!-- Cabeçalho -->
+    <header class="px-6 py-4 flex items-center justify-between">
+      <h1 class="text-2xl md:text-3xl font-bold tracking-tight">CONVX</h1>
+      <nav>
+        <a href="/dashboard.html" class="text-blue-400 hover:underline mr-4">Dashboard</a>
+      </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="px-6">
+      <!-- Hero Section -->
+      <section class="text-center py-20">
+        <h2 class="text-3xl md:text-5xl font-extrabold mb-4">
+          IA operacional para OPBs
+        </h2>
+        <p class="max-w-2xl mx-auto mb-8 text-gray-300 text-lg md:text-xl">
+          Transforme sua operação com soluções de inteligência artificial
+          personalizadas para o seu negócio.
+        </p>
+        <a
+          href="#contato"
+          class="inline-block bg-blue-600 hover:bg-blue-500 text-white py-3 px-6 rounded-md transition-colors"
+        >
+          Quero saber mais
+        </a>
+      </section>
+
+      <!-- Seção de Recursos -->
+      <section class="py-16">
+        <h3
+          class="text-2xl md:text-3xl font-bold mb-10 text-center"
+        >
+          Recursos
+        </h3>
+        <div class="grid gap-8 md:grid-cols-3">
+          <div>
+            <h4 class="font-semibold text-xl mb-2">Automação</h4>
+            <p class="text-gray-300">
+              Automatize tarefas repetitivas e libere sua equipe para se
+              concentrar no que mais importa.
+            </p>
+          </div>
+          <div>
+            <h4 class="font-semibold text-xl mb-2">Integração</h4>
+            <p class="text-gray-300">
+              Conecte seus sistemas de forma transparente e centralize dados
+              para uma visão completa do seu negócio.
+            </p>
+          </div>
+          <div>
+            <h4 class="font-semibold text-xl mb-2">Análise</h4>
+            <p class="text-gray-300">
+              Extraia insights poderosos com análises avançadas baseadas em
+              inteligência artificial.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção de Métricas / Casos de uso (simplificado) -->
+      <section class="py-16 bg-gray-900 rounded-lg">
+        <div class="max-w-4xl mx-auto text-center">
+          <h3 class="text-2xl md:text-3xl font-bold mb-10">Resultados</h3>
+          <div class="flex flex-col md:flex-row justify-center gap-10">
+            <div>
+              <p class="text-4xl font-extrabold text-blue-500">+40%</p>
+              <p class="text-gray-400">Aumento de produtividade</p>
+            </div>
+            <div>
+              <p class="text-4xl font-extrabold text-blue-500">-30%</p>
+              <p class="text-gray-400">Redução de custos</p>
+            </div>
+            <div>
+              <p class="text-4xl font-extrabold text-blue-500">24/7</p>
+              <p class="text-gray-400">Operação contínua</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ (simplificado) -->
+      <section class="py-16">
+        <h3 class="text-2xl md:text-3xl font-bold mb-10 text-center">
+          Perguntas frequentes
+        </h3>
+        <div class="space-y-6 max-w-3xl mx-auto">
+          <details class="bg-gray-900 p-4 rounded-md">
+            <summary class="font-semibold cursor-pointer">
+              O que é a CONVX?
+            </summary>
+            <p class="mt-2 text-gray-300">
+              A CONVX é uma plataforma de inteligência artificial voltada para
+              melhorar processos operacionais e de negócio.
+            </p>
+          </details>
+          <details class="bg-gray-900 p-4 rounded-md">
+            <summary class="font-semibold cursor-pointer">
+              Posso integrar meus sistemas existentes?
+            </summary>
+            <p class="mt-2 text-gray-300">
+              Sim! Nossa solução permite integração com diversas APIs e
+              plataformas de forma simples.
+            </p>
+          </details>
+          <details class="bg-gray-900 p-4 rounded-md">
+            <summary class="font-semibold cursor-pointer">
+              Quais são os planos de pricing?
+            </summary>
+            <p class="mt-2 text-gray-300">
+              Entre em contato conosco para receber uma proposta customizada.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <!-- Seção de Contato -->
+      <section id="contato" class="py-16">
+        <h3 class="text-2xl md:text-3xl font-bold mb-6 text-center">
+          Entre em contato
+        </h3>
+        <p class="max-w-xl mx-auto text-center text-gray-400 mb-6">
+          Preencha o formulário abaixo e nossa equipe entrará em contato para
+          entender suas necessidades.
+        </p>
+        <form
+          id="contato-form"
+          class="max-w-lg mx-auto space-y-4"
+          onsubmit="return false;"
+        >
+          <input
+            type="text"
+            name="nome"
+            placeholder="Nome"
+            class="w-full p-3 rounded-md bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            class="w-full p-3 rounded-md bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            required
+          />
+          <textarea
+            name="mensagem"
+            placeholder="Mensagem"
+            rows="5"
+            class="w-full p-3 rounded-md bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            required
+          ></textarea>
+          <button
+            type="submit"
+            id="btn-enviar"
+            class="w-full bg-blue-600 hover:bg-blue-500 text-white py-3 rounded-md transition-colors"
+          >
+            Enviar mensagem
+          </button>
+        </form>
+        <p
+          id="success-msg"
+          class="hidden mt-4 text-center text-green-500 font-medium"
+        >
+          Obrigado! Sua mensagem foi enviada com sucesso.
+        </p>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-gray-900 py-8 text-center text-gray-500">
+      &copy; 2025 CONVX
+    </footer>
+
+    <!-- Script de envio do formulário -->
+    <script>
+      document.getElementById("contato-form").addEventListener("submit", async (e) => {
+        e.preventDefault();
+        // Coleta os dados do formulário
+        const nome = e.target.nome.value;
+        const email = e.target.email.value;
+        const mensagem = e.target.mensagem.value;
+
+        const payload = {
+          nome,
+          email,
+          mensagem,
+        };
+
+        try {
+          await fetch(
+            "https://convx-n8n.cydvbl.easypanel.host/webhook/b60ab93c-8078-4385-9192-a5227de2089d",
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(payload),
+            }
+          );
+          // Mostra mensagem de sucesso
+          document
+            .getElementById("success-msg")
+            .classList.remove("hidden");
+          // Limpa o formulário
+          e.target.reset();
+        } catch (error) {
+          console.error("Erro ao enviar formulário:", error);
+        }
+      });
+    </script>
+  </body>
+</html>
