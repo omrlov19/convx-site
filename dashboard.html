@@ -1,27 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CONVX — Dashboard</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.0/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body class="bg-black text-gray-100">
-    <header class="px-6 py-4 flex items-center">
-      <a href="/index.html" class="text-blue-400 hover:underline text-xl mr-4"
-        >Voltar</a
-      >
-      <h1 class="text-2xl font-bold">Dashboard</h1>
-    </header>
-    <main class="px-6 py-20 text-center">
-      <h2 class="text-3xl font-bold mb-4">Área do cliente</h2>
-      <p class="text-gray-300 max-w-xl mx-auto">
-        Esta é uma página de demonstração do dashboard. Em breve, funcionalidades
-        completas estarão disponíveis.
-      </p>
-    </main>
-  </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CONVX — Dashboard</title>
+<style>
+:root {
+    --bg: #0e0e0f;
+    --accent: #1f6feb;
+    --accent-hover: #2c73e8;
+    --text-light: #f5f5f5;
+    --text-muted: #9ca3af;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg);
+    color: var(--text-light);
+    line-height: 1.6;
+}
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+header {
+    padding: 1.5rem 1rem;
+    background-color: #00000066;
+}
+header a {
+    margin-right: 1rem;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<header>
+    <a href="/index.html">&larr; Voltar</a>
+</header>
+<main>
+    <h1 style="font-size:2.5rem; margin-bottom:1rem;">Dashboard</h1>
+    <p style="color: var(--text-muted);">Esta é uma página de demonstração do dashboard. Em breve, funcionalidades completas estarão disponíveis.</p>
+</main>
+</body>
 </html>
